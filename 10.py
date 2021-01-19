@@ -23,7 +23,7 @@ def quiz():
         else:
             print("Try Again!")
     while True:
-        q2 = input("\n3. Why do we use commas? ").lower()
+        q2 = input("\n2. Why do we use commas? ").lower()
         a2 = "separate"
         printing = q2.split()
         if a2 in printing:
