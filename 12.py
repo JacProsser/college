@@ -1,0 +1,6 @@
+print(10<=10)
+print(20>=20)
+print(100>30)
+print(50<150)
+print(50 == 50)
+print(10 != 40)
