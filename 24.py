@@ -11,7 +11,7 @@ import os
 
 def calc():
     os.system("cls")
-    print("Basic Calculator in",  Fore.YELLOW+"python.", Fore.RESET+"| Made by", Fore.CYAN+"Jac Prosser\n" + Fore.RESET)
+    print("In/Cm Calculator in",  Fore.YELLOW+"python.", Fore.RESET+"| Made by", Fore.CYAN+"Jac Prosser\n" + Fore.RESET)
     num1 = float(input("Enter a number: "))
     print(Fore.RESET)
     print("What do you want to do?\n\n", Fore.GREEN+"(1) Inches to Centimetres\n", Fore.RED+"(2) Centimetres to Inches\n", Fore.WHITE+"(3) Exit\n\n", Fore.RESET+"Copyright (c) Jac 2021\n"
