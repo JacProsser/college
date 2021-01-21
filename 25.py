@@ -5,8 +5,12 @@ import os
 os.system("cls")
 def process():
     os.system("cls")
+    print("Average Speed Calculator in",  Fore.YELLOW+"python.", Fore.RESET+"| Made by", Fore.CYAN+"Jac Prosser\n" + Fore.RESET)
     distanceM = float(input("Distance (m): "))
     timeS = float(input("Time (s): "))
+    sum = distanceM / timeS
+    
+    print(sum, "M/S")
 
 
 process()

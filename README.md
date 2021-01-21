@@ -116,11 +116,11 @@
 + asking the user to choose between converting from centimetres to inches or from inches to centimetres   
 + calculating and outputting the result using functions 
 
-! Python Challenge 25 
-! Write a program that:  
-! asks the user for the distance (in metres)  
-! asks the user for the time in seconds that a journey was completed in  
-! calculates and outputs the average speed using a function 
++ Python Challenge 25 
++ Write a program that:  
++ asks the user for the distance (in metres)  
++ asks the user for the time in seconds that a journey was completed in  
++ calculates and outputs the average speed using a function 
 
 - Python Challenge 26 
 - A gardener needs to buy some turf for a project they are working on. The garden is rectangular with a circular flower bed in the middle. Write a program that:    
