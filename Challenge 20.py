@@ -1,22 +1,24 @@
 import os
-import colorama 
 from colorama import Fore, Back, Style 
 import sys
 import time
-import pygame
 
 
-def music():
-    pygame.init()
-    pygame.mixer.music.load("C:\\Users\\Jac\\Music\\Unfold (Slowed).mp3")
-    pygame.mixer.music.play()
-    pygame.mixer.music.set_volume(0.1)
+
+
 
 def calc():
     os.system("cls")
     print("Basic Calculator in",  Fore.YELLOW+"python.", Fore.RESET+"| Made by", Fore.CYAN+"Jac Prosser\n")
     print(Fore.RESET)
-    print("What do you want to do?\n\n", Fore.GREEN+"(1) Add\n", Fore.RED+"(2) Subtract\n", Fore.YELLOW+"(3) Multiply\n", Fore.BLUE+"(4) Divide\n", Fore.WHITE+"(5) Exit\n\n", Fore.RESET+"Copyright (c) Jac 2021\n"
+    print("What do you want to do?\n\n", 
+          Fore.GREEN+"(1) Add\n", 
+          Fore.RED+"(2) Subtract\n", 
+          Fore.YELLOW+"(3) Multiply\n", 
+          Fore.BLUE+"(4) Divide\n", 
+          Fore.WHITE+"(5) Exit\n\n", 
+          
+          Fore.RESET+"Copyright (c) Jac 2021\n"
     )
 
     choice = input("Choice: ")
@@ -62,7 +64,7 @@ def calc():
         calc()
 
 
-music()
+
 calc()
 while True:
     again = str(input(Fore.RESET+"\nWould you like to use the calculator again? ["+Fore.GREEN+"Y"+Fore.RESET+"/"+Fore.RED+"N"+ Fore.RESET+"]: ")).lower()
