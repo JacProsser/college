@@ -4,9 +4,11 @@ from colorama import Fore, Back, Style
 import os
 
 
+def InToCm(x):
+   return x * 2.54
 
-
-
+def CmtoIn(x):
+    return x / 2.54
 
 
 def calc():
@@ -22,13 +24,13 @@ def calc():
     if choice == "1":
         os.system("cls")
         print(Fore.GREEN + "Inches to Centimetres\n")
-        sum = num1 * 2.54
+        sum = InToCm(num1)
         print("Answer: ", round(sum, 2), "cm", sep="")
 
     elif choice == "2":
         os.system("cls")
         print(Fore.RED + "Centimetres to Inches\n")
-        sum = num1 / 2.54
+        sum = CmtoIn(num1)
         print("Answer: ", round(sum, 2), "in", sep="")
 
     elif choice == "3":
