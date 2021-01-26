@@ -2,13 +2,14 @@ import os
 from colorama import Fore, Back, Style 
 import sys
 import time
-
+import datetime
 
 
 
 
 def calc():
     os.system("cls")
+    now = datetime.datetime.now()
     print("Basic Calculator in",  Fore.YELLOW+"python.", Fore.RESET+"| Made by", Fore.CYAN+"Jac Prosser\n")
     print(Fore.RESET)
     print("What do you want to do?\n\n", 
@@ -18,7 +19,7 @@ def calc():
           Fore.BLUE+"(4) Divide\n", 
           Fore.WHITE+"(5) Exit\n\n", 
           
-          Fore.RESET+"Copyright (c) Jac 2021\n"
+          Fore.RESET+"Copyright (c) Jac", now.year, "\n"
     )
 
     choice = input("Choice: ")
