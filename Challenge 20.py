@@ -1,6 +1,6 @@
 import os
 from colorama import Fore, Back, Style 
-import sys
+
 import time
 import datetime
 
@@ -56,7 +56,7 @@ def calc():
         sum = float(num1)/float(num2)
         print("Answer: ", sum)
     elif choice == "5":
-        sys.exit()
+        exit()
 
     else:
         print(Fore.RED+"Invalid input! Please choose from the options listed.")
@@ -73,4 +73,4 @@ while True:
           print(Fore.RESET)
           calc()
     elif again == "n":
-          sys.exit()
+          exit()
