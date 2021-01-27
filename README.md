@@ -35,7 +35,7 @@
 + Store your name in a variable called your_name 
 + print out Hello + your_name 
 + print out the memory location/address of your_name 
-- Comment on your code 
++ Comment on your code 
 
 + Python Challenge 7 
 + Create a program to:  
@@ -43,14 +43,14 @@
 + Store your name in a variable called your_name 
 + print out your name backwards 
 + print out your name 1000 times 
-- Comment on your code 
++ Comment on your code 
 
 + Python Challenge 8 
 + Create a program to:  
 + Ask your name 
 + Store your name in a variable called your_name 
 + print out the full ASCII code of your full name 
-- Comment on your code 
++ Comment on your code 
 
 + Python Challenge 9 
 + Create a program to: 
@@ -59,7 +59,7 @@
 + print out the character with the highest ASCII char 
 + print out the character with the lowest ASCII char 
 + print out the length of a string 
-- Comment on your code 
++ Comment on your code 
 
 + Python Challenge 10 
 + Create a literacy quiz for learners using different string operations.  
