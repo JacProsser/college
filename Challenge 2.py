@@ -1,4 +1,4 @@
-#tells the user what to do
+#tells the user what to do 
 print('Please input 2 different numbers. [Average Calculator]')
 #waits for users input on number 1
 num1 = float(input("Number 1: ") )

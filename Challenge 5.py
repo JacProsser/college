@@ -1,4 +1,4 @@
-#just import date package
+#just import date package 
 import datetime
 #asking user for name
 name = input("What is your name? ")

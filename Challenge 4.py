@@ -1,6 +1,6 @@
-#asks the user for total cost of sweets. float meaning that it can only be a float value
+#asks the user for total cost of sweets. (float)
 totalcost = float(input("Total cost of sweets (£): "))
-#asks the user for amount of money given. float meaning that it can only be a float value
+#asks the user for amount of money given. (float)
 totalmoney = float(input("Amount of money given (£): "))
 #takes amount of money given and subtracts the cost of sweets
 sum = totalmoney - totalcost

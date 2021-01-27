@@ -1,4 +1,4 @@
-#asks the user what their age is
+#asks the user what their age is 
 choice = input("What is your age? ")
 #prints/shows users age back to them on the screen
 print('Your age is:', choice)
