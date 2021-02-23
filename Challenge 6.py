@@ -6,3 +6,5 @@ your_name = name
 print("Hello", your_name)
 #printing the memory location of the users input
 print("Memory Location: ", id(your_name))
+#gets user to press enter before closing console (get time to read it instead of closing after print)
+input()
