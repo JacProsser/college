@@ -4,8 +4,6 @@ import colorama
 from colorama import Fore
 import time
 
-
-
 #list of the "answers"
 realnames = ["melanie brown", "melanie chisholm", "emma bunton", "geri halliwell", "victoria beckham"] 
 
@@ -39,9 +37,6 @@ def spice():
        else:
            print(Fore.RED + "Who do you think you are?")
        
-  
-
-           
 #calling function so it actually runs
 spice()
 #while true loop to ask if the user wants to try again if yes then it will restart the program. (doesn't show if you get it correct as the program exits) if no it will exit the console

@@ -5,9 +5,6 @@ from colorama import Fore, Back, Style
 import time
 
 
-
-
-
 def neg_pos():
 #clears the console screen      
             os.system("cls")

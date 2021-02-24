@@ -14,29 +14,29 @@ def quiz():
        q1 = input("\n1. What comes after the end of a sentence? ").lower()
        a1 = ["full stop", "."]
        if q1 in a1:
-          print("Well Done!")
+          print(Fore.GREEN + "Well Done!" + Fore.RESET)
           break
        else:
-          print("Try Again!")
+          print(Fore.RED + "Try Again!" + Fore.RESET)
     #while true loop that keeps asking for the users input until it matches the answers within a2
     while True:
         q2 = input("\n2. Give me an example of an uppercase letter? ")
         a2 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
         if q2 in a2:
-            print("Well Done!")
+            print(Fore.GREEN + "Well Done!" + Fore.RESET)
             break
         else:
-            print("Try Again!")
+            print( Fore.RED + "Try Again!" + Fore.RESET)
     #while true loop that keeps asking for the users input until it matches the answers within a3
     while True:
         q3 = input("\n3. Why do we use commas? ").lower()
         a3 = "separate"
         printing = q3.split()
         if a3 in printing:
-            print("Well Done!")
+            print(Fore.GREEN + "Well Done!" + Fore.RESET)
             break
         else:
-            print("Try Again!")
+            print(Fore.RED + "Try Again!" + Fore.RESET)
 
 
 #calling function so it actually runs

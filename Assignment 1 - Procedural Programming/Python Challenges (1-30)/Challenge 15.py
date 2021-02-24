@@ -4,12 +4,10 @@ import colorama
 from colorama import Fore, Back, Style
 import time
 
-
 #sets the username
 username = "college"
 #sets the password
 password = "merthyr"
-
 
 def passw():
             #clears the console screen
@@ -31,10 +29,6 @@ def passw():
             else:
                 print(Fore.RED + "Failed!")
                 
-            
-
-
-
 #calling function so it actually runs
 passw()
 

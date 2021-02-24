@@ -10,7 +10,6 @@ def InToCm(x):
 def CmtoIn(x):
     return x / 2.54
 
-
 def calc():
     #clears the console screen
     os.system("cls")
@@ -40,9 +39,6 @@ def calc():
 
     elif choice == "3":
      exit()
-
-
-
 
 #calling function so it actually runs
 calc()

@@ -10,3 +10,5 @@ print(50<150)
 print(50 == 50)
 #prints true because 10 does not equal 40
 print(10 != 40)
+#makes sure the user clicks enter before the "console" closes. this allows them to see the answer instead of the console closing instantly
+input()

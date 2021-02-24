@@ -4,7 +4,6 @@ import colorama
 from colorama import Fore, Back, Style
 import time
 
-
 #setting the password
 password = "Jac"
 #clears the console screen
@@ -29,9 +28,6 @@ def pwcheck():
                   
 #calling function so it actually runs
 pwcheck()
-
-
-
 
 #makes user click enter before closing console
 input() 

@@ -4,9 +4,6 @@ from colorama import Fore, Back, Style
 import time
 import datetime
 
-
-
-
 def calc():
     #clears the console screen
     os.system("cls")
@@ -69,7 +66,6 @@ def calc():
         print(Fore.RESET)
         time.sleep(2)
         calc()
-
 
 #calling function so it actually runs
 calc()
