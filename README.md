@@ -9,7 +9,7 @@
 
 #### **_Contents (Assignment 2 - Procedural Programming)_**
 
-* **Python Test Files (5)**
+* **LoyaltyChecker.py**
 * **README.md**
 
 
