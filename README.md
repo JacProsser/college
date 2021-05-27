@@ -1,5 +1,7 @@
+<div align="center">
+  <h1 align="center">College Work 🎓</h1> 
+</div>
 
-## **_College Work 🎓_**
 
 #### **_Contents (Assignment 1 - Procedural Programming)_**
 
@@ -11,5 +13,4 @@
 
 * **LoyaltyChecker.py**
 * **README.md**
-
 
